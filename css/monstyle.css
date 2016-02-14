@@ -3,9 +3,42 @@ body {
   height: 100%;
 }
 
+.boule-bas {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  font-size: 200px;
+  color: rgba(0, 255, 255, 0.35);
+}
+
+.sep-jaune {
+  background-color: yellow;
+  height: 6px;
+  margin-bottom: 40px;
+  position: absolute;
+  z-index: -3;
+}
+
+.sep-jaune.sep1 {
+  top: 570px;
+  width: 60%;
+}
+
+.sep-jaune.sep2 {
+  top: 590px;
+  width: 65%;
+  left: 40px;
+}
+
+.sep-jaune.sep3 {
+  top: 610px;
+  width: 72%;
+  left: 50px;
+}
+
 .bloc-home {
-  background-color: aqua;
-  opacity: 0.75;
+  background-color: rgba(0, 255, 255, 0.75);
+  opacity: 1;
 }
 
 .bloc-home:hover {
@@ -28,7 +61,6 @@ body {
   top: 0px;
   z-index: -1;
   text-align: center;
-  
 }
 
 .bloc-home:hover .bloc-jaune {
@@ -65,35 +97,63 @@ body {
   text-align: center;
 }
 
-#icon:hover:after{
+#icon:hover:after {
   content: "hello";
   font-size: 67px;
 }
 
-.image-id{
+.image-id {
   position: absolute;
-  bottom: 0;
+  top: 0;
   right: 0;
   opacity: 0.5;
 }
 
-.immeuble{
-  color: white;
-  background-color: black;
-  font-size: 50px;
-  opacity: 0.3;
-}
-
-.nuage-mots{
+.mot-link {
   position: absolute;
-  z-index: 12;
   background-color: white;
   border: yellow 2px solid;
   color: black;
-  
+  font-size: 25px;
+  padding: 10px;
 }
 
-.nuage-mots:hover{
+.mot-link:hover {
   font-size: 40px;
   font-style: bold;
+}
+
+.mot-link.css {
+  left: 55%;
+  top: 350px;
+  z-index: 10;
+}
+
+.mot-link.frontend {
+  left: 40%;
+  top: 250px;
+  z-index: 11;
+}
+
+.mot-link.javascript {
+  left: 30%;
+  top: 450px;
+  z-index: 12;
+}
+
+.mot-link a {
+  color: black;
+}
+
+.mot-link a:visited {
+  color: black;
+}
+
+.bloc-blanc{
+  background-color: white;
+  width: 300px;
+  height: 80px;
+  position: absolute;
+  top: 615px;
+  left: 50px;
 }

@@ -14,6 +14,12 @@
   background-size: cover; 
 }
 
+.sidebar-nav li a.img-side:hover{
+  background: inherit;
+  background-image: url("../img/id-square.png");
+  background-size: cover;
+  
+}
 
 
 /* Toggle Styles */
@@ -106,7 +112,7 @@
 .sidebar-nav li a:hover {
   text-decoration: none;
   color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(0, 255, 255, 0.2);
 }
 
 .sidebar-nav li a:active,
@@ -117,11 +123,13 @@
 .sidebar-nav > .sidebar-brand {
   height: 65px;
   font-size: 18px;
-  line-height: 60px;
+  line-height: 60px;  
+  margin-bottom: 30px;
 }
 
 .sidebar-nav > .sidebar-brand a {
   color: #999999;
+  margin-left: 20px;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
