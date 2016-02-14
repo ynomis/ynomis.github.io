@@ -3,9 +3,29 @@ body {
   height: 100%;
 }
 
+.icon-home{
+  position: absolute;
+  left: -111px;
+  top: -45px;
+  color: lightgray;
+  font-size: 35px;
+}
+
+.icon-home:hover{
+  color: #5A5A5A
+}
+
 .boule-bas {
   position: absolute;
   top: 500px;
+  left: 50px;
+  font-size: 200px;
+  color: rgba(0, 255, 255, 0.35);
+}
+
+.contact-bas {
+  position: absolute;
+  top: 450px;
   left: 50px;
   font-size: 200px;
   color: rgba(0, 255, 255, 0.35);
@@ -137,6 +157,24 @@ body {
 
 .mot-link.javascript {
   left: 30%;
+  top: 450px;
+  z-index: 12;
+}
+
+.mot-link.linkedin {
+  left: 25%;
+  top: 350px;
+  z-index: 10;
+}
+
+.mot-link.viadeo {
+  left: 15%;
+  top: 250px;
+  z-index: 11;
+}
+
+.mot-link.twitter {
+  left: 60%;
   top: 450px;
   z-index: 12;
 }
