@@ -6,7 +6,7 @@ body {
 .icon-home{
   position: absolute;
   left: -111px;
-  top: -45px;
+  top: -16px;
   color: lightgray;
   font-size: 35px;
 }
@@ -61,11 +61,17 @@ body {
   opacity: 1;
 }
 
-.bloc-home:hover {
+.bloc-home.hover-fixed {
   text-decoration: line-through;
   font-style: italic;
   width: 80%;
   transition: 3s;
+  margin-right: 20%;
+}
+
+.bloc-home:hover .image-id{
+  right: -30px;
+  transition: 4s;
 }
 
 .bloc-home:hover p {
