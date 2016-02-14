@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FRONT END</title>
+
+  <!-- Material Design Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/monstyle.css">
+
+  <!-- Custom CSS -->
+  <link href="css/simple-sidebar.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <div id="wrapper">
+
+    <div id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li style="margin-top: 20px;">
+          <a href="#menu-toggle" id="menu-toggle"><span></span></a>
+        </li>
+        <li class="menu-link">
+          <a href="index.html" class="img-side">
+          </a>
+        </li>
+        <li class="sidebar-brand menu-link">
+          <a href="index.html">
+                        YNOMIS
+                    </a>
+        </li>
+
+        <li class="menu-link animated fadeIn">
+          <a href="frontend.html">FRONT-END</a>
+        </li>
+        <li class="menu-link animated fadeIn">
+          <a href="#">CSS</a>
+        </li>
+        <li class="menu-link animated fadeIn">
+          <a href="#">GRAPHIC DESIGN</a>
+        </li>
+        <li class="menu-link animated fadeIn">
+          <a href="#">GLITCH</a>
+        </li>
+        <li class="menu-link animated fadeIn">
+          <a href="#">PAINT3000</a>
+        </li>
+        <li class="menu-link link-cv animated fadeIn">
+          <a href="#">CV</a>
+        </li>
+        <li class="menu-link link-contact animated fadeIn">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 bloc-home">
+            <h1>Frontend engineer</h1>
+          </div>
+        </div>
+        <div class="row">
+          <h2>Presentation</h2>
+          <p>
+            Hello World,
+            <br/> My name is <strong>Yann Simon</strong>.
+            <br/> 23 yo front end engineer Living in Nantes (France)
+            <br/> Currently working at Cap Gemini - Digital Factory
+          </p>
+        </div>
+        <div class="row">
+          <h2>Languages</h2>
+          <ul>
+              <li>CSS</li>
+              <li>LESS</li>
+              <li>BOOTSTRAP</li>
+              <li>JAVASCRIPT</li>
+            </ul>
+        </div>
+        <div class="row">
+          <h2>References         </h2>
+          <p>
+            I have worked for:
+            <ul>
+              <li>Defenseur des droits</li>
+              <li>Humanis group</li>
+              <li>Sercel</li>
+              <li>Angers Metropole</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+
+
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  <!-- Material Design Bootstrap -->
+  <script type="text/javascript" src="js/mdb.js"></script>
+
+  <!-- Bootstrap Core JavaScript -->
+  <script src="js/bootstrap.min.js"></script>
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+      $("#menu-toggle").toggleClass("on");
+    });
+  </script>
+
+</body>
+
+</html>
